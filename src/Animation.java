@@ -146,7 +146,7 @@ public class Animation extends JFrame implements GLEventListener {
         // ===== Draw the square ===== //
         gl.glPushMatrix();
         gl.glTranslatef(moveX, moveY, 0); // Apply translation
-//        gl.glRotatef(angle, 0, 0, 1); // Apply rotation
+        gl.glRotatef(angle, 0, 0, 1); // Apply rotation
         gl.glScalef(scaleX, scaleY, 1f);  // Apply scaling
 
         gl.glColor3f(1f, 0.5f, 0f);
