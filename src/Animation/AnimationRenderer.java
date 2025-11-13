@@ -1,4 +1,4 @@
-package Animation;
+package Animation.TaskOOP;
 
 import javax.media.opengl.GL;
 import javax.media.opengl.GLAutoDrawable;

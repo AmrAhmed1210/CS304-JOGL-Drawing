@@ -1,4 +1,4 @@
-package Animation;
+package Animation.TaskOOP;
 
 import javax.media.opengl.GLCanvas;
 import javax.swing.*;
@@ -9,7 +9,7 @@ public class AnimationWindow extends JFrame {
     private AnimationRenderer renderer;
 
     public AnimationWindow() {
-        super("JOGL Animation");
+        super("JOGL Animation.Animation");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
